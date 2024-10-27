@@ -1,0 +1,94 @@
+.btn-container{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+}
+
+.add-todo-btn{
+ background-color: white;
+ font-family: 'sans-serif';
+ color: rgb(84, 48, 93);
+ font-size: 18px;
+ font-weight: 600;
+ padding: 5px;
+ border-radius: 5px;
+ margin: 20px;
+ text-align: center;
+ align-self: flex-end;
+ border: 2px solid rgb(84, 48, 93);
+ cursor: pointer;
+ outline: none;
+}
+
+.plus-icon{
+ font-size: 15px;
+}
+
+.add-todo-container{
+ display: flex;
+ flex-direction: column;
+ font-family: 'sans-serif';
+ height: 60vh;
+ width: 30vw;
+ background-color: white;
+ padding: 10px;
+ border-radius: 10px;
+ color: rgb(84, 48, 93);
+ padding: 10px;
+}
+
+.add{
+ align-self: center;
+}
+
+.cross-icon{
+ align-self: flex-end;
+ cursor: pointer;
+}
+
+.label{
+ font-size: 20px;
+ font-weight: 600;
+ padding: 5px;
+}
+
+.input, textarea{
+ outline: none;
+ padding: 6px;
+ font-family: 'sans-serif';
+ color: rgb(84, 48, 93);
+ font-size: 15px;
+ font-weight: 600;
+ border-radius: 5px;
+ border: 1px solid rgb(84, 48, 93);
+ margin-left: 15px;
+ margin-right: 20px;
+ margin-top: 5px;
+ margin-bottom: 5px;
+ overflow: hidden;
+}
+
+.add-btn{
+ background-color: aqua;
+}
+
+.done-btn{
+ background-color: transparent;
+ align-self: center;
+ font-family: 'sans-serif';
+ color: rgb(84, 48, 93);
+ font-size: 18px;
+ font-weight: 600;
+ padding: 5px;
+ border-radius: 5px;
+ width: 7vw;
+ margin-bottom: 10px;
+ border: 2px solid rgb(84, 48, 93);
+ cursor: pointer;
+}
+
+.error{
+ color: red;
+ padding: 10px;
+ font-weight: 600;
+}
